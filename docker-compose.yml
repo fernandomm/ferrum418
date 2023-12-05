@@ -1,0 +1,8 @@
+services:
+  app:
+    build:
+      context: .
+  browserless:
+    ports:
+      - 3000:3000
+    image: browserless/chrome:latest
